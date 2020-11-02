@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+
+}
+.navbar{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 67px;
+}
+.nav-list{
+   width: 70%;
+   display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    
+}
+.nav-list li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.nav-list li a:hover{
+    color: rgb(236, 175, 8);
+    
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 20px;
+  
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 69, 221);
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+    margin-bottom: 81px;
+
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 100%;
+    border: 4px solid white;
+    border-radius: 130px;
+    display: block;
+    margin: auto;
+    margin-bottom: 106px;
+}
+ .text-big{
+    font-size: 30px;
+}
+ .hd{
+    font-family: sans-serif;
+ }
+ .text-small{
+    font-size: 17px;   
+    margin-top: 17px;
+  
+}
+.section-left{
+    margin-left: 131px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 3px solid rgb(255, 60, 0);
+    border-radius: 8px;
+    font-size: 17px;
+    color: rgb(146, 9, 32);
+    background-color: antiquewhite;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+
+}
+#search{
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 7px;
+
+}
+.background {
+    background: rgba(0, 0, 0, 0.5) url("../images/bground.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.section{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+    padding: 10px;
+}
+.imgFluid{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 200px;
+    margin-top: 36px;
+}
+hr{
+    border: 1px solid rgb(124, 117, 113);
+}
+
+.paras{
+    padding: 0 65px;
+}
+.section-left{
+    
+    flex-direction: row-reverse;
+   
+}
+.paras-left{
+    margin-left: 170px;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectionTag{
+    padding: 16px 0;
+}   
+.contact{
+    background-color: rgb(243, 233, 226);
+    height: 560px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu';
+    font-size: 200%;
+    margin-top: 40px;
+}
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+.form-input{
+    width: 100%;
+    margin: 14px 0;
+    padding: 5px 13px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.submit-btn{
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px 350px;
+    cursor: pointer;
+
+}
+.footer-bg{
+    color: white;
+    background-color: rgb(117,37,154);
+}
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-family: 'Ubuntu';
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
